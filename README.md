@@ -1,31 +1,33 @@
-IPL Cricket Analysis
+# IPL Cricket Analysis
 This repository contains Python code and analysis conducted on IPL (Indian Premier League) cricket data. The analysis focuses on exploring batting and bowling performance, extras distribution, team-specific analysis, player performance, and match context analysis.
 
-Dataset
+## Dataset
 The dataset used for analysis contains detailed ball-by-ball and matches information from IPL matches from 2008-2022 including innings data, batting and bowling details, wicket-taking patterns, extras information, and more.
 
-Analysis Overview
-Overall Batting Performance
-Calculated basic batting statistics such as total runs scored, average runs per innings, and strike rate.
-Visualized the distribution of runs scored using histograms.
-Bowling Performance
-Analyzed bowling statistics such as total wickets taken and bowling average.
-Extras Analysis
-Calculated the distribution of different types of extras (e.g., wides, no-balls) and their frequency.
-Visualized the distribution of extras using bar plots.
-Team-Specific Analysis
-Examined batting statistics for each team, including total runs scored and average runs per innings.
-Player Performance Analysis
-Identified top-performing batsmen and bowlers based on total runs scored and wickets taken, respectively.
-Match Context Analysis
-Explored the total runs scored by each batting team to understand match outcomes.
-Files Included
-ipl_bbb.csv: The dataset containing ball-by-ball information from IPL matches.
-ipl_analysis.ipynb: Jupyter Notebook containing Python code for conducting the analysis.
-README.md: This file summarizing the project and analysis conducted.
-How to Use
-To replicate the analysis or explore the dataset further:
+## Analysis Overview
 
-Download or clone the repository to your local machine.
-Ensure you have Python and Jupyter Notebook installed.
-Open ipl_analysis.ipynb in Jupyter Notebook and run the code cells sequentially.
+1. **Winning Analysis**
+   - Analyzed the distribution of winning teams, percentage of winning, and methods in which they won (e.g., runs, wickets).
+   - Explored factors influencing match wins, such as toss outcomes and venue advantages/disadvantages.
+
+2. **Toss Analysis**
+   - Investigated the impact of winning the toss on match outcomes.
+   - Analyzed the distribution of matches won by teams after winning the toss.
+
+3. **Player Analysis**
+   - Examined the performance of individual players, including top batsmen and bowlers based on runs scored and wickets taken, respectively.
+   - Identified the highest run partnerships between players, highlighting key player collaborations.
+
+4. **Season Analysis**
+   - Explored trends and patterns across different IPL seasons.
+   - Analyzed which team had the highest number of wins in each season, providing insights into season-wise performance trends.
+
+5. **Team Analysis**
+   - Analyzed team-wise performance, including total runs scored, total wickets taken, and win-loss records.
+   - Identified strengths and weaknesses of each team based on statistical analysis of performance metrics.
+
+## Files Included
+
+- `IPL_Ball_by_Ball_2008_2022.csv`: The dataset containing ball-by-ball information from IPL matches.
+- `IPL_Matches_2008_2022.csv`: Jupyter Notebook containing Python code for conducting the analysis.
+- `README.md`: This file summarizing the project and analysis conducted.
